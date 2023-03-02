@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPSC 471/Chapter 4.md",
+                "file": "CPSC 471/Chapter 4 - The Network Layer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3838ad6d4f16483",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CPSC 315/03.01 - Privacy.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPSC 471/Chapter 4.md",
+                "file": "CPSC 315/03.01 - Privacy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPSC 471/Chapter 4.md",
+                "file": "CPSC 315/03.01 - Privacy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPSC 471/Chapter 4.md"
+                "file": "CPSC 315/03.01 - Privacy.md"
               }
             }
           }
@@ -148,8 +161,10 @@
   },
   "active": "1e7b501b5d455f40",
   "lastOpenFiles": [
+    "CPSC 471/Chapter 4 - The Network Layer.md",
+    "CPSC 315/03.01 - Privacy.md",
+    "CPSC 315",
     "CPSC 362/2-28.md",
-    "CPSC 471/Chapter 4.md",
     "CPSC 471"
   ]
 }
