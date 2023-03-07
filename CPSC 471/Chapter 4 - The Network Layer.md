@@ -13,9 +13,31 @@ __Functions__
 ## Router
 ```
                             [Routing Processor]
+                            ------------------- Control Plane
                                  |      ^
                                  |      |
                                  v      |
-[Routing Input] ------> [High-speed Switching Fabric] ------> [Router Output]
+[Input Port] ------> [High-speed Switching Fabric] ------> [Output Port]
 ```
-Switching Fabric uses 
+Input Port
+- interprets packet header
+- **match** with forwarding table to send to device
+
+Switching fabric consists of various **switches**, tracking various interface ports
+
+Speed consistency matters; if something's too slow, we end up with delays and **dropped packets**
+- datagrams arrive in queue faster than available buffer space
+
+Intentionally giving packets lower priority at the ISP-level **based on source/service** is something Net Neutrality aims to destroy
+
+Buffer Management
+- we **drop** a packet when buffer is full
+	- depending on customer, we may prioritize certain services (ie. business applications)
+- we **mark** packets to signal congestion
+
+Scheduling Policies (how do we determine what to drop?)
+- First Come First Serve (FCFS)
+- Priority- discriminate by header info
+	- FCFS within priority class
+- Round Robin
+
