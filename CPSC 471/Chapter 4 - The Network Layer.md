@@ -10,34 +10,42 @@ __Functions__
 	- scope: whole network
 	- routers communicate to each other on the control plane by algorithms
 
-## Router
+## Router (ISP-level)
 ```
                             [Routing Processor]
-                            ------------------- Control Plane
+	               Control Plane
+                -----------------------------------------
+                                              Data Plane
                                  |      ^
                                  |      |
                                  v      |
 [Input Port] ------> [High-speed Switching Fabric] ------> [Output Port]
 ```
-Input Port
+### Input Port
 - interprets packet header
 - **match** with forwarding table to send to device
+- has queue; suffers delays and buffer overflow (drops)
 
 Switching fabric consists of various **switches**, tracking various interface ports
 
 Speed consistency matters; if something's too slow, we end up with delays and **dropped packets**
 - datagrams arrive in queue faster than available buffer space
 
+### Output Port
 Intentionally giving packets lower priority at the ISP-level **based on source/service** is something Net Neutrality aims to destroy
 
 Buffer Management
-- we **drop** a packet when buffer is full
-	- depending on customer, we may prioritize certain services (ie. business applications)
+- we **drop** a packet when buffer is full. there are a couple approaches
+	- depending on customer, we may **prioritize** certain services **given their needs** (ie. business applications)
+	- **tail drop**: drop the last arriving packet
 - we **mark** packets to signal congestion
 
-Scheduling Policies (how do we determine what to drop?)
+Packet Scheduling Policies (how do we determine what to drop?)
 - First Come First Serve (FCFS)
 - Priority- discriminate by header info
 	- FCFS within priority class
 - Round Robin
+- Weighted Fair Queueing (WFQ)
+
+
 
