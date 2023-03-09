@@ -2,6 +2,7 @@
 
 ### Public Records
 **Publically accessible information that can be linked to an individual.**
+- typically required by government
 
 ## Data mining
 **Analyzing data to find interesting bits and patterns.**
