@@ -74,6 +74,7 @@ Divide a network on the same router into *sub networks*
 
 process overview
   a. host broadcasts a **DHCP discover**, checking for the existence of a *DHCP server*
+	  - 255.255.255.255 broadcast
   b. server responds to host with an IP address "offer"
   c. host responds with a decided address
     - can either be desired (ie. previous address) or the server-provided

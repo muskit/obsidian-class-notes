@@ -16,4 +16,4 @@ Bias number allows us to represent **negative** exponents
 Basically IEEE754, except:
 - stored exponent is **always** 7 bits w/ bias = 64 (0x40)
 	- 32-bit: 1s 7e 24f
-	- 64-bit: 1s 7e 
+	- 64-bit: 1s 7e 56f
