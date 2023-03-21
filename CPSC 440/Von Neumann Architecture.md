@@ -1,6 +1,10 @@
 CPU
 - registers
 - ALU
+- runs in a Von Neumann cycle
+	a. Fetch
+	b. Decode (translate from binary to instruction/actions) 
+	c. Execute
 
 Memory
 - ROM: non-volatile read-only
@@ -12,3 +16,5 @@ Memory
 I/O
 - networking
 - peripherals
+
+
