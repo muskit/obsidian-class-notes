@@ -7,7 +7,7 @@
 
 ## Addressing types
 Register addressing
-- *note the order of registers*
+- *note the order of registers*; **`$rd` (destination) always goes first**
 ![[Pasted image 20230320102440.png]]
 
 Immediate addressing
