@@ -1,4 +1,4 @@
-## By Types
+## Instruction Types
 ![[Pasted image 20230320102129.png]]
 
 ![[Pasted image 20230320102211.png]]
@@ -12,6 +12,11 @@ Register addressing
 
 Immediate addressing
 ![[Pasted image 20230320102930.png]]
+
+Pseudo-direct addressing
+  *most* of the full address is in the instruction:
+	- 4MSB removed (replaced with PC's)
+	- 2LSB removed (always 0, since aligned in 4s)
 ![[Pasted image 20230320103047.png]]
 
 Base (indirect register) addressing
@@ -19,4 +24,7 @@ Base (indirect register) addressing
 in this example, `$t2` is a register holding an address. parentheses **dereferences** the register by its address.
 
 PC-relative addressing
+address is *number of instructions* **OFFSET** from PC's current value
+- PC actually points to the **next** instruction to execute. when running instruction, PC is shifted BEFORE executing instruction.
+- relative address is in 2's complement if negative
 ![[Pasted image 20230320103602.png]]

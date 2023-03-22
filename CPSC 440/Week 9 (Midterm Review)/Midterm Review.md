@@ -15,5 +15,5 @@ translating between binary and MIPS code
 - branching
 
 ## Part 2
-Two open-ended papers
-A IEEE754 conversion with detailed steps
+Two open-ended essays
+A IEEE754 conversion with detailed steps (**don't use multiply by 2**)
