@@ -49,6 +49,11 @@ Packet Scheduling Policies (how do we determine what to drop?)
 
 
 ## IP Datagram
+*IPv4*
+![[Pasted image 20230322145315.png]]
+
+*IPv6 (just the header; what follows is payload data)*
+![[Pasted image 20230322145655.png]]
 
 ## IP Addressing
 Public vs. private addresses
