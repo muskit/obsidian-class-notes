@@ -1,5 +1,5 @@
 ## Overview
-__Functions__
+__Standard Functions__
 - forwarding: move packets from input link to router output link
 	- analogy: going through an interchange
 - routing: determine route taken by packets from src to dest. by *algorithms*
@@ -47,14 +47,6 @@ Packet Scheduling Policies (how do we determine what to drop?)
 - Round Robin
 - Weighted Fair Queueing (WFQ)
 
-
-## IP Datagram
-*IPv4*
-![[Pasted image 20230322145315.png]]
-
-*IPv6 (just the header; what follows is payload data)*
-![[Pasted image 20230322145655.png]]
-
 ## IP Addressing
 Public vs. private addresses
 - private addresses are reserved for LAN devices
@@ -86,3 +78,42 @@ process overview
   d. server responds by confirming the decided IP address
 
   note: a. and b. may be skipped if host wants to use an old address
+
+## IP Datagram
+*IPv4*
+![[Pasted image 20230322145315.png]]
+
+*IPv6 (just the header; what follows is payload data)*
+![[Pasted image 20230322145655.png]]
+**New to IPv6**
+- Priority- important for congestion control
+	- assigned based on protocol
+- Flow Label- distinguishes data flow
+- Next Header- indicates type of "extension header"
+- Hop limit- prevents infinite loop
+**Removed in IPv6**
+- header checksum
+- fragment offset
+- options
+**Challenging Transition**
+practically *all* devices still use IPv4; can't transition everything to IPv6 quickly
+- many legacy routers still only use IPv4
+to solve this, we use **tunnelling**
+![[Pasted image 20230403175609.png]]
+- encapsulate the IPv6 datagram as an IPv4 packet's data
+- used extensively in 4G-5G comms
+- implemention (pictured above) can vary between ISPs
+
+## Generalized Forwarding
+routers have a *forwarding table*, which determines what to do (forward, drop, etc.) with a received packet depending on header (ie. destination ip)
+
+### Flow table abstraction
+**OpenFlow**- protocol that allows a server to tell network switches where to send packets (match + action)
+![[Pasted image 20230403180339.png]]
+We can configure the server to take action based on any of the fields pictured above.
+Actions: `drop`, `forward`, `modify`, `send` to OpenFlow controller
+
+## Middleboxes
+some intermediary box performing functions apart from standard functions of an IP router. sits between a source and destination host.
+- ex: NAT, firewalls, load balancers (these exist on Network or Application layers), caches, app-specific boxes
+- can be on dedicated hardware or software (nowadays it's typically a software)
