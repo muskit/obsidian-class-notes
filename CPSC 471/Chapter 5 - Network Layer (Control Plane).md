@@ -51,3 +51,6 @@ inter-AS prioritizes security
 - determine hops by ISP-defined policy
 - ISPs might want to keep routes within their network as much as possible
 - "hot potato" routing
+
+iBGP: internal - within the AS
+eBGP: external - between different AS'es
