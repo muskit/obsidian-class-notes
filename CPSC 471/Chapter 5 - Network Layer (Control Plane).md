@@ -54,3 +54,27 @@ inter-AS prioritizes security
 
 iBGP: internal - within the AS
 eBGP: external - between different AS'es
+
+**BGP is the only protocol being used for inter-AS communication.**
+
+## Software-Defined Networking (SDN) Control Plane
+a remote controller (centralized system) computes and installs forwarding tables in all routers
+- software: cloud deployment
+
+advantages of logically centralized system
+- easier management: avoid misconfiguration due to **human error**
+- easier deployment
+- non-proprietary implementation
+
+**Messages between controller & routers**
+*// TODO*
+
+**OpenDaylight controller**: an SDN controller written in Java
+sets up two sets of REST APIs dedicated to different functions
+- northbound: traffic engineering, firewalling, load balancing
+- southbound: OpenFlow, OVSDB, NETCONF, etc.
+
+# Internet Control Message Protocol (ICMP)
+communicates various info (`ping` requests, error reporting, etc.) on the ***network layer*
+- `traceroute` works in ICMP
+- 
