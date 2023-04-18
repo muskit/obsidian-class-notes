@@ -25,6 +25,6 @@ in this example, `$t2` is a register holding an address. parentheses **dereferen
 
 PC-relative addressing
 address is *number of instructions* **OFFSET** from PC's current value
-- current PC actually points to the **next** instruction to execute; when running an instruction, PC is shifted BEFORE executing instruction.
+- current PC actually points to the **next** instruction to execute; when running an instruction: READ --> SHIFT --> EXECUTE
 - relative address is in 2's complement if negative
 ![[Pasted image 20230320103602.png]]
