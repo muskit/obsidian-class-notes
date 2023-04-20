@@ -57,3 +57,38 @@ CSMA (Carrier Sense Multiple Access)
 
 Polling: master node invites other nodes to transmit in turn
 - issue: latency, single point of failure
+
+# MAC Address
+48-bit value that uniquely identifies the network-layer device
+- usually associated with a typical 32-bit IPv4 in a network
+- typically set by the manufacturer, but can also be set by software
+
+# Link-layer devices
+### Ethernet
+pros and cons
+- best for raw speed
+- connectionless: no handshake between NICs
+- ureliable: no ACK or NAK
+
+ethernet standards
+- speeds vary by physical-layer cable types:
+	- 2 Mbps
+	- 10 Mbps
+	- 100 Mbps
+	- 1 Gbps
+	- 10 Gbps
+	- 40 Gbps
+
+### Ethernet switch
+is an **active** device that *stores* and *forwards* network frames
+
+### Switch vs. Router
+router
+- store and forward: network-layer
+- forwarding: compute tables using routing algorithms
+switch
+- store and forward: link-layer
+- forwarding: learn forwarding table using flooding, learning, 
+
+
+# VLAN (Virtual LAN)
