@@ -63,12 +63,16 @@ Polling: master node invites other nodes to transmit in turn
 - usually associated with a typical 32-bit IPv4 in a network
 - typically set by the manufacturer, but can also be set by software
 
+**ARP**: mapping of MAC address to IP address
+  - MAC = link layer
+  - IP = network layer
+
 # Link-layer devices
 ### Ethernet
-pros and cons
-- best for raw speed
+*3 important points*
 - connectionless: no handshake between NICs
 - ureliable: no ACK or NAK
+- CSMA/CD for collision detection
 
 ethernet standards
 - speeds vary by physical-layer cable types:
@@ -83,12 +87,20 @@ ethernet standards
 is an **active** device that *stores* and *forwards* network frames
 
 ### Switch vs. Router
-router
+switch ('layer 2')
+- has a MAC address
+- store and forward: link-layer
+- forwarding: learn forwarding table using flooding/broadcasting, learning, 
+router ('layer 3')
+- has an IP address
 - store and forward: network-layer
 - forwarding: compute tables using routing algorithms
-switch
-- store and forward: link-layer
-- forwarding: learn forwarding table using flooding, learning, 
 
 
 # VLAN (Virtual LAN)
+*// TODO*
+
+# Forwarding 
+// TODO
+
+# Datacenter Networking
