@@ -24,4 +24,9 @@ CDMA (Code Division Multiple Access)
 - hosts can then *associate* with a desired access point
 
 Collision Avoidance: RTS (req. to send)-CTS (clr to send) exchange
- // TODO
+ - reserves frequency for the single sender
+ - if collision occurs, sender waits it out
+ - once CTS received, try sending
+
+# 4G/5G
+
