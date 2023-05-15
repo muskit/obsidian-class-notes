@@ -10,4 +10,4 @@ index = lower *n* bits of full address
 tag = upper *m* bits
 - identifies the full memory location
 
-temporal/spacial *locality*
+temporal/spatial *locality*
