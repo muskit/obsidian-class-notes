@@ -30,8 +30,18 @@ Instead of learning every detail of a particular tech, focus on **one** desirabl
 - Pseudo-direct
 	- `j` (jump)
 
-MIPS Datapath (in a cycle; loops around):
-// TODO
+**MIPS Datapath (in a cycle; loops around):*
+* Instruction fetch/decode
+* Operand fetch
+* Execute instruction
+* Memory access
+* Writeback
+
+Data Hazard (aka 'race condition')
+- occurs when the next instruction occurs **while the previous instruction is still in the MIPS datapath**
+- next instruction might rely on a register that the previous instruction that hasn't written to yet (ie. `I1` is beginning *writeback* when `I2` is at *operand fetch* with an operand in `I1`)
+- solution: forwarding/short-circuiting
+	- https://www.youtube.com/watch?v=gkgqVEPi3Fk
 
 
 ## Ch.5 Prep: Locality Leads to Re-Use
