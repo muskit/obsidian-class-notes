@@ -30,19 +30,26 @@ Instead of learning every detail of a particular tech, focus on **one** desirabl
 - Pseudo-direct
 	- `j` (jump)
 
-**MIPS Datapath (in a cycle; loops around):*
+**MIPS Datapath (in a cycle; loops around):**
 * Instruction fetch/decode
 * Operand fetch
 * Execute instruction
 * Memory access
 * Writeback
 
-Data Hazard (aka 'race condition')
-- occurs when the next instruction occurs **while the previous instruction is still in the MIPS datapath**
-- next instruction might rely on a register that the previous instruction that hasn't written to yet (ie. `I1` is beginning *writeback* when `I2` is at *operand fetch* with an operand in `I1`)
-- solution: forwarding/short-circuiting
-	- https://www.youtube.com/watch?v=gkgqVEPi3Fk
+Data Hazard (like a race condition)
+- occurs when the next instruction depends on **register that the previous instruction hasn't outputted to** in the MIPS datapath yet
+	- ie. `I1` is beginning *writeback* when `I2` is at *operand fetch* with `I1`'s dest. register
+- solution: **forwarding**
+	- ALU stores result in a temporary "register"
+	- the previous instruction can access that temporary "register"
 
+Load-Use Hazard
+- occurs when next instruction depends on memory content being loaded in prev. instruction
+	- ie. `I1` calls `$t0` when prev. register is `lw $t0, ...`
+- solution: **stall**
+	- wait for memory content to be stored into the register before continuing
+	- compiler can optimize for best time to stall
 
 ## Ch.5 Prep: Locality Leads to Re-Use
 *temporal*: recent activity is likely to be acknowledged again

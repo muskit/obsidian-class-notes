@@ -34,3 +34,4 @@ These can't apply to all people; might be controversial
 4. virtue ethics 
     - following a virtuous person 
     - one expects that person to always be correct in issues
+    - ???

@@ -28,7 +28,6 @@ where $n$ is the number of nodes:
 
 ### Distance-vector algorithm
 is based on Bellman-Ford, similar to Dijkstra's
-- # TODO: REVIEW
 
 # Routing
 
@@ -70,7 +69,7 @@ advantages of logically centralized system
 *// TODO*
 
 **OpenDaylight controller**: an SDN controller written in Java
-sets up two sets of REST APIs dedicated to different functions
+sets up two sets of REST APIs dedicated to different functionsontroller written in Java
 - northbound: traffic engineering, firewalling, load balancing
 - southbound: OpenFlow, OVSDB, NETCONF, etc.
 
