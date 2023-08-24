@@ -1,0 +1,13 @@
+# "Malware Analysis"
+
+Class website: sites.google.com/view/cpsc-458
+- contains HW, syllabus
+- Canvas is used mainly for turn-ins
+
+Canvas discussion board requires half-course participation (7 of 14 weeks)
+
+Get two virtual machines together to test malware samples
+- REMnux - analysis Linux distro
+- Windows 10(?) dev image (professor-provided)
+	- much more malware is produced for Windows
+Host machine should be capable of running BOTH VMs simultaneously
