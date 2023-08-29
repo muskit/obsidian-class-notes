@@ -1,5 +1,5 @@
-Class is hybrid: https://csufullerton.instructure.com/courses/3396512
-- attendance is optional
+Class is recorded: https://csufullerton.instructure.com/courses/3396512
+- attendance is "required"
 
 We will be building backend applications in Python
 

@@ -2,10 +2,10 @@
 The two adjective types -- な＆い -- have different ways to conjugate.
 
 ## い-adjectives
-きれい - clean
 さむ**い** - cold
 - さむ**く**ない - not cold
 あたらしい - new
+たかい - expensive
 
 ## な-adjectives
 しずか - quiet (like a place)
@@ -16,10 +16,10 @@ The two adjective types -- な＆い -- have different ways to conjugate.
 ひま - free; not busy
 
 ## Irregular Adjectives
-いい**な** - good
-- **よくない** - not good (irregular)
-かっこ**いいな** - good looking
-- 。。。はかっこいいです。(... is good-looking.)
+いい - good
+- よくない - not good (irregular)
+かっこ**いい** - good looking
+- 。。。はかっこ**いい**です。(... is good-looking.)
 - かっこ**よくない** - not good looking
 
 # Comparing
