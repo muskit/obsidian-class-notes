@@ -29,3 +29,11 @@ The two adjective types -- な＆い -- have different ways to conjugate.
 # Misc. Vocab
 きのう - yesterday
 あした - tomorrow
+
+# Kanji
+元（もと；**ゲン**、ガン）
+- origin, source, foundation
+気（き；**キ**、ケ）
+- spirit
+天（あまつ、あめ、あま；**テン**）
+- heaven, sky

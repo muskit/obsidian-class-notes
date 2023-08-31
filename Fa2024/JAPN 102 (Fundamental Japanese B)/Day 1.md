@@ -7,6 +7,6 @@ __Random Vocab__
 しゅっしん - hometown, birthplace
 
 
-# New Vocab
-山（やま）- mountain
-川崎 （かわ）- river
+# Kanji
+山（やま；サン、セン）- mountain
+川崎 （かわ；セン）- river

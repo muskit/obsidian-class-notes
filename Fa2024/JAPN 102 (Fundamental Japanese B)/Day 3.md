@@ -15,10 +15,17 @@ Describing adjectives in the past
 - iidesu --> yokattadesu
 - yokunaidesu --> yokunakattadesu
 
+# Vocab to review
+きのう - yesterday
+
 # Kanji
-今 - this, present time
-田 - rice field
+今（いま；キン、コン）
+- this, present time
+田（た；デン）
+- rice field
 - 山田さん (Yamada-san: common last name)
-女 - woman
-男 - man
-- incorporates 田 and カ (power)
+女（おんあ、め；ジョ）
+- female, woman
+男（おとこ、お；ダン、ナン）
+- male, man
+- incorporates 田 and 力 (power)
