@@ -54,5 +54,6 @@ Evaluating a strategy:
 
 Branching factor
 - number of next states given some state
-- number of children from a state tree node
-- can vary between positions, levels
+- number of children from a state tree node (don't count recursively)
+- can vary between positions, levels: can be expressed as a math expression
+
