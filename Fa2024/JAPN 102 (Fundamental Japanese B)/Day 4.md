@@ -1,5 +1,6 @@
 ## Connecting phrases
 そして- and then
+けど- but (use in same sentence)
 
 **What's your favorite A(thing)?**
 - すきなAは　なんですか？
