@@ -7,7 +7,7 @@
 - きらいなAは　なんですくあ？
 
 I like it **a little**.
-- **あまり**すきじゃないです。
+organizing- **あまり**すきじゃないです。
 
 I neither like nor hate it.
 - すき**でも**　きらい**でも**　ないです。
@@ -31,6 +31,6 @@ very, extremely: emphasizing adjective
 - **すごく**
 
 # Kanji
-We'll start to use Kanji to represent vocab we have learned.
+We'll be starting to use kanji to represent vocab we have learned.
 **見**る
 **大**きい
