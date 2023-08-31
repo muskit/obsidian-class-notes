@@ -35,3 +35,4 @@ very, extremely: emphasizing adjective
 We'll be starting to use kanji to represent vocab we have learned.
 **見**る
 **大**きい
+![[Screenshot_20230831_135523_Squid.jpg]]
