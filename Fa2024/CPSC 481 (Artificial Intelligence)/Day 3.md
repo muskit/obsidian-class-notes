@@ -28,6 +28,7 @@ Graph terms
 	- sequence of edges connected by vertices
 - cycle
 	- path which has the same start and end vertices
+- frontier: set nodes on the frontline to immediately explore
 
 *problem space*: a **graph** where states are *nodes* and operators are *edges*
 *actions*: finite set of **actions** which can be executed on some state $s$
@@ -36,9 +37,7 @@ Graph terms
 - `RESULT(s, a)`
 *action cost function*: numeric **cost** of applying action `a` to state `s` to get state `s'`
 - `ACTION_COST(s, a, s')`
-
-![[Pasted image 20230829145727.png]]
-
+![[Pasted image 20230829145820.png]]
 Queues
 - priority queue
 	- nodes popped based on some priority

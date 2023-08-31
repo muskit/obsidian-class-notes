@@ -15,7 +15,8 @@ Describing adjectives in the past
 - iidesu --> yokattadesu
 - yokunaidesu --> yokunakattadesu
 
-# Vocab to review
+# Vocabulary
+## To review
 きのう - yesterday
 
 # Kanji
