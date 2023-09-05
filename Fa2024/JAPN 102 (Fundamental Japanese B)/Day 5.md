@@ -31,6 +31,9 @@ We'll learn the following for now...
 	- 〜まい
 	- Tシャツは　３まい　あります。(There are three t-shirts.)
 
+## Kanji practice (based on HW)
+![[Drawing 2023-09-05 12.38.16.excalidraw]]
+
 # New vocab
 movie theater
 # Catch up vocab
