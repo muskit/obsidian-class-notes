@@ -1,3 +1,5 @@
+Class website: https://sites.google.com/view/cpsc-449
+
 Class is recorded: https://csufullerton.instructure.com/courses/3396512
 - attendance is "required"
 

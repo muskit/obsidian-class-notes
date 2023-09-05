@@ -1,0 +1,1 @@
+My class notes. Best viewed in [Obsidian](https://obsidian.md/)
