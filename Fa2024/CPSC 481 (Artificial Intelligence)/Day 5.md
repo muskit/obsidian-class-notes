@@ -1,3 +1,4 @@
+## Search algorithms cont.
 Depth-limited DFS
 - we mitigate not being complete to infinite spaces by adding **depth limit** $l$
 - requires knowing what the depth of solution is
@@ -20,6 +21,7 @@ Iterative Deepening
  - \# of nodes grows extremely quickly (exponentially) as we go deeper in the search space
  - ways to avoid tracking so many nodes have been devised, including *Dijkstra's algorithm*
 
+## Dijkstra's Algorithm
 recall: *frontier*- set of nodes ready/waiting to be immediately explored
 
 **Uniform cost search (variation of Dijkstra's)**
@@ -46,4 +48,17 @@ while True:
 
 Example
 ![[Pasted image 20230905152309.png]]![[Pasted image 20230905152336.png]]
-NOTE: Goal and C have the same weight in the frontier. Which one gets popped depends on the data structure implementation.
+- Goal and C have the same weight in the frontier. Which one gets popped depends on the data structure implementation
+
+UCS/Dijkstra's **does not have a goal in mind**. They search for the shortest path from the start to every other node, effectively producing a new graph.
+
+Space complexity: $O(b^{C*/\epsilon})$
+The Good: UCS/Dijkstra's is **complete** and **optimal**.
+The Bad: explores **everything**, no goal considered
+
+# The search algorithms we have so far
+Breadth-First Search (BFS) - expands shallowest node
+Depth-First Search (DFS) - expands deepest node
+Depth-Limited Search (DLS) - DFS w/ depth limit
+Iterative-Deepening Search (IDS) - DLS w/ increasing limit
+Uniform-Cost Search (UCS) - expands least-cost node
