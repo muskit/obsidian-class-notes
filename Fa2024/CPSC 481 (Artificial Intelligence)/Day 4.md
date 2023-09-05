@@ -14,9 +14,10 @@ uninformed search
 - Time complexity = $O(b^m)$
 - Space complexity = $O(bm)$
 	- m = depth; b = branching factor (children per node)
-	- only space we use is for the frontier stack; 
+	- only space we use is for the frontier stack
+	- **advantage**: uses less space compared to other methods
 - Complete? **No**
-	- can end up in loops, graph may be infinite
+	- can end up in **infinite loops** before exploring all pathsp
 - Optimal? **No**
 	- may explore a single path too far, skipping a more shallow path
 
