@@ -1,1 +1,1 @@
-My class notes. Best viewed in [Obsidian](https://obsidian.md/)
+My class notes. Best viewed in [Obsidian.md](https://obsidian.md/).

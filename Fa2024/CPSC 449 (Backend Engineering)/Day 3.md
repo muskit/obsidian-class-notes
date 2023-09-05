@@ -1,9 +1,11 @@
-# Networking Basics
+**Topics**
+Networking Basics
+Remote Procedural Calls (RPC)
+- an older method of network communication
+Failure Modes
 
-# Remote Procedural Calls (RPC)
-An older method of network communication
-
-# Failure Modes
+*scale up*: improving a single system ("bigger" machines)
+*scale out*: getting more systems (more machines)
 
 # Homework for next class
 ## Exercise 1
