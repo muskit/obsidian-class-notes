@@ -95,8 +95,10 @@ There's a lot of discovering specifics that need to be worked out in order to be
 - URLs
 	- server, port, path, protocol
 
-**GraphQL** attempts to improve on REST
-- **over-fetching:** specify what (multiple) fields we want to retrieve
+**GraphQL** attempts to improve on REST on these issues:
+- **over-fetching:** pulling more data than we need for our context
+- **under-fetching:** requiring multiple calls to build our fetched information
+- GraphQL solves this by building our request and specifying what fields we want to retrieve
 # Homework for next class
 ## Exercise 1
 https://docs.google.com/document/d/1zrunmZtNfrwxqfiTL4vfdQCiocMws8NWMeqjq5vhx64
