@@ -99,6 +99,14 @@ There's a lot of discovering specifics that need to be worked out in order to be
 - **over-fetching:** pulling more data than we need for our context
 - **under-fetching:** requiring multiple calls to build our fetched information
 - GraphQL solves this by building our request and specifying what fields we want to retrieve
+
+## Failure Modes
+Partial failure
+- server down
+- server busy/slowed
+- network data dropped
+How we respond to these issues will vary. But a problem: **how do we know what happened?**
+
 # Homework for next class
 ## Exercise 1
 https://docs.google.com/document/d/1zrunmZtNfrwxqfiTL4vfdQCiocMws8NWMeqjq5vhx64
