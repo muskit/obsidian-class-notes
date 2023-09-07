@@ -7,7 +7,7 @@ B: そうしましょう。(Let's do that.)
 
 **ませんか** vs. **ましょうか**
 - ませんか - invite
-	- cannot use with *question words* (どこ、だれ、なに、etc.)
+	- cannot use with *question-placeholder words* (どこ、だれ、なに、etc.)
 - ましょうか - shall we
 	- **can** use with *question words*
 
@@ -33,8 +33,11 @@ We'll learn the following for now...
 
 ## Kanji practice (based on HW)
 ![[Drawing 2023-09-05 12.38.16.excalidraw]]
-
-# New vocab
-movie theater
+# New Vocab
+聞く（きく）- to ask; to listen
+- 。。。**を**きく - to listen to/hear
+- 。。。**に**きく - to ask
 # Catch up vocab
 いっしょ - together
+# Other vocab
+えいが**かん** - movie theater
