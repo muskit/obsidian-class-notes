@@ -43,7 +43,7 @@ while True:
 			frontiner.add(cand)
 		elif child in frontier \
 			and frontier[child].cost > cand[child].cost:
-			frontier[child] = child
+			frontier[child] = child # set to candidate's path to child
 ```
 
 Example

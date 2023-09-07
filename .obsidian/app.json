@@ -6,5 +6,7 @@
     "margin": "2",
     "downscalePercent": 60
   },
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "vimMode": true,
+  "showLineNumber": true
 }
