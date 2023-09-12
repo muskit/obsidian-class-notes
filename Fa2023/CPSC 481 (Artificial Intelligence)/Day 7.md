@@ -26,3 +26,4 @@ Utility value: our "heuristic"
 
 ### Game Tree for Halving Game w/ n=5
 ![[Day 7 2023-09-12 15.25.13.excalidraw]]
+Works like Depth-First Search, but we're also tracking min/max utility scores.
