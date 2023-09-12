@@ -25,3 +25,4 @@ Utility value: our "heuristic"
 - Agents try to find the best path through tree to achieve desired utility val (min'ing or max'ing)
 
 ### Game Tree for Halving Game w/ n=5
+![[Day 7 2023-09-12 15.25.13.excalidraw]]
