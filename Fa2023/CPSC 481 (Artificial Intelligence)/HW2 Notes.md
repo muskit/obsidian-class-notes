@@ -30,3 +30,5 @@ S B E M N F     | Frontier: A(6.1) C(4.9) D(6) P(3.8)
 S B E M N F P   | Frontier: A(6.1) C(4.9) D(6) G(2.0)
 S B E M N F P G | Frontier: A(6.1) C(4.9) D(6)
 ```
+
+**FLAW**: did not accumulate path/node costs for each node starting from `S`
