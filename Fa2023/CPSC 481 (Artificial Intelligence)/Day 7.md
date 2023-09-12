@@ -20,3 +20,8 @@ Zero-sum: only one winner
 
 ### Game Tree
 ![[Day 7 2023-09-12 15.06.25.excalidraw]]
+Utility value: our "heuristic"
+- Min/max: opponent tries to minimize player's utility val, player tries to maximize utility val
+- Agents try to find the best path through tree to achieve desired utility val (min'ing or max'ing)
+
+### Game Tree for Halving Game w/ n=5
