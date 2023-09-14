@@ -6,7 +6,7 @@ To prepare for the day's exam, review...
 # Lecture
 
 ## Verbs in て-form
-Politely request someone to (verb)
+Politely request someone to (verb)  
 〜てください
 - き**て**ください - please listen
 
@@ -23,5 +23,5 @@ Politely request someone to (verb)
 |(い)く|い(っ)て|
 |ぐ|いで|
 
-する $\rightarrow$ して
+する $\rightarrow$ して  
 くる $\rightarrow$ きて
