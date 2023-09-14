@@ -1,4 +1,3 @@
-This exam is **cumulative** w.r.t. textbook (L1-L5).
 To prepare for the day's exam, review...
 - L5 (vocab, grammar, kanji `(wasn't tested)`)
 - days of the month + week
