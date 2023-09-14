@@ -23,3 +23,5 @@ Politely request someone to (verb)
 |(い)く|い(っ)て|
 |ぐ|いで|
 
+する $\rightarrow$ して
+くる $\rightarrow$ きて
