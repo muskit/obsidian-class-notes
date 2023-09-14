@@ -2,7 +2,7 @@
 つける - to turn on
 けす - to turn off
 
-すわる - to sit down
+ｘに　すわる - to sit down (on seat x)
 たつ - to stand up
 
 あける (開ける) - to open
@@ -14,6 +14,6 @@
 
 かりる - to borrow
 かえす - to return (a thing)
-- 〜に - person (receiving the thing?)
+- 〜に - person giving to borrow/receiving to return the thing
 - 〜を - the thing being returned
 
