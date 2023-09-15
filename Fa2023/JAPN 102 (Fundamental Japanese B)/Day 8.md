@@ -43,8 +43,9 @@
 - 西口 (にし　ぐち) - West Exit
 南 (みなみ) - south
 - 南口 (みなみ　ぐち) - South Exit
-北 - north
+北 (きた) - north
 - 北口 (きた　ぐち) - North Exit
+![[Day 8 2023-09-14 12.44.06.excalidraw]]
 
 # Catch-Up Vocab
 きょうしょ - textbook
