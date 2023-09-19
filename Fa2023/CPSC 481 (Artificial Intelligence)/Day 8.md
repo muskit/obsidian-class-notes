@@ -15,7 +15,7 @@ To solve this, we can introduce a **depth-limit**:
 - how deep we should go depends on game 
 ### **Alpha-Beta Pruning**
 https://www.youtube.com/watch?v=l-hh51ncgDI
-process for an agent to eliminate paths in a game tree that the opposing agent will certainly not choose
+process for an agent to eliminate paths in a game tree that will certainly not occur
 - $\alpha$: value of best choice the max'er has found so far at any point in the tree (`alpha = max(alpha, eval(node|term))`)
 	- initialized to worst case ($-\infty$)
 	- only updated by the **maximizer**
