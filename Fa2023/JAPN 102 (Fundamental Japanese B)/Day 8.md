@@ -32,6 +32,7 @@
 10. あした　でんわしてください。
 
 # て-form to signify chronological action
+"-te, verb" shows that you did the "verb-te" before the next phrase.
 シャワーをあびて、あさごはんを食べました。
 - I showered then ate breakfast.
 

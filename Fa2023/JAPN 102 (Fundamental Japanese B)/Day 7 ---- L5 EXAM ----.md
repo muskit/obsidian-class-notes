@@ -24,3 +24,4 @@ Politely request someone to (verb)
 
 する $\rightarrow$ して  
 くる $\rightarrow$ きて
+いく $\rightarrow$ いって
