@@ -18,3 +18,6 @@ Declining
  - (NOT ね**む**)
 # Misc. Vocab
 私のとなりの人 - person next to me
+# Kanji 
+![[Day 9 2023-09-19 12.32.19.excalidraw]]
+![[Day 9 2023-09-19 12.40.09.excalidraw]]
