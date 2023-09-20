@@ -49,4 +49,6 @@ The only way to improve performance is by **addressing the bottleneck**.
 Unlike previous issues, there is only one way to improve availability: **redundancy** (replication)
 - avoid single points of failure (SPOF): one fail = everything down
 - SPOF is the bottleneck of availability: fixing SPOF is the only way to fix availability issues
-- being stateless allows us to hand off operations
+- being stateless allows us to hand off operationso
+### Autoscaling
+Developers can leave scaling to cloud services, which "automatically" scale up systems setup by cloud developers
