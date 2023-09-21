@@ -14,3 +14,10 @@ $\alpha \implies \beta = \sim \alpha \lor \beta$
 
 **DeMorgan's Law**
 $\sim (\alpha \land \beta) = \sim\alpha\lor\sim\beta$
+
+**Back to statements**
+$A \land B$ becomes
+1. A
+2. B
+
+TODO: add more rules/shortcuts?
