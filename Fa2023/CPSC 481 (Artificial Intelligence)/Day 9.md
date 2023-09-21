@@ -34,6 +34,7 @@ Knowledgebase (KB; premises)
 **Entailment**
 "A entails B": if A is true, then B must be true for every value of A.
 Given that A is true, then B should also be true.
+- of all possible states, ONLY consider states where given is true
 - don't consider states where A is not true
 
 Example:
