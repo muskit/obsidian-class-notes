@@ -8,4 +8,4 @@
 **Responding**
 A: 〜ましょうか。
 B: すみません。おねがいします。
-- すみません - 
+- すみません - can mean "thank you"

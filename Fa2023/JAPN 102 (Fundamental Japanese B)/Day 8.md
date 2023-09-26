@@ -47,6 +47,3 @@
 北 (きた) - north
 - 北口 (きた　ぐち) - North Exit
 ![[Day 8 2023-09-14 12.44.06.excalidraw]]
-
-# Catch-Up Vocab
-きょうしょ - textbook
