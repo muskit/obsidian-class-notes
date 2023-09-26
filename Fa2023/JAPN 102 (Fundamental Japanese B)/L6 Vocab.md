@@ -14,6 +14,6 @@
 
 かりる - to borrow
 かえす - to return (a thing)
-- 〜に - person giving to borrow/receiving to return the thing
+- 〜に - person lending; receiving to return the thing
 - 〜を - the thing being returned
 
