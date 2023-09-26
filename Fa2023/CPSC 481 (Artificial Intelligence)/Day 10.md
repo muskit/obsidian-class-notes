@@ -1,19 +1,19 @@
 ## Propositional Logic (cont.)
 *proof*- a sequence of sentences where each sentence
 
-### Rules -- shortcuts
+### Rules
 **Resolution Rule**
-$A\lor B,\sim B\lor C = A\lor C$
-$A \land B, \sim B = A$
+$A\lor B,\neg B\lor C = A\lor C$
+$A \lor B, \neg B = A$
 
 **Converting a statement to *Conjunctive Normal Form* (CNF)**
 Eliminating the "implies" ($\implies$) and having only conjunctions ($\land$) at the top level of our statement
 
 **Removing implication**
-$\alpha \implies \beta = \sim \alpha \lor \beta$
+$\alpha \implies \beta = \neg\alpha \lor \beta$
 
 **DeMorgan's Law**
-$\sim (\alpha \land \beta) = \sim\alpha\lor\sim\beta$
+$\neg (\alpha \land \beta) = \neg\alpha\lor\neg\beta$
 
 **Back to statements**
 $A \land B$ becomes
