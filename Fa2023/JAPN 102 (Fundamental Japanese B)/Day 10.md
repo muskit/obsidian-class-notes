@@ -8,6 +8,6 @@
 **Responding**
 A: 〜ましょうか。
 B: すみません。おねがいします。
-- すみません - can mean "thank you"
+- 「すみません」 can mean "thank you"
 # Kanji
 ![[Drawing 2023-09-21 12.41.18.excalidraw]]
