@@ -22,3 +22,15 @@ Solution to the partial-reconnection problem: *k-anonymity*
 4. Suppression: don't release detail at all
 	- ie. don't release location of subject at all
 
+# Reasoning with Uncertainty
+Uncertain contexts
+- **medical diagnosis**: same symptoms can have many different causes
+- **natural language**: slangs, metaphors change over time
+- **planning, scheduling**: an agent's initial plan will likely need to change during its execution
+- **learning**
+
+Random variables are capitalized (ie. $T$ for temperature)
+
+## Probability  Distributions
+Random variables can be represented by a table of probability values
+- sum of probability values = 1
