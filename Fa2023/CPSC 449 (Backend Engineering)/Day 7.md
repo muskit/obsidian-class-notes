@@ -29,7 +29,7 @@ Each microservice should have their own DB; otherwise, if the single shared DB g
 	- service orchestration- used in practice
 		- API gateway constructs data from different MSes
 
-Our next project will involve setting up an API Gateway that redirects to particular microservice.
+**Project 2** will involve setting up an API Gateway that redirects to particular microservices.
 
 **Advantages of microservice architecture**
 - separation of concerns
@@ -40,8 +40,20 @@ Our next project will involve setting up an API Gateway that redirects to partic
 	- ie. each MS has a different DB -- it becomes an implementation detail
 	- implementation of each MS is opaque
 
-Criteria for decomposition (dividing a system into microservices)
-- Domain-Driven Design (DDD)
+**Service dependency**
+What if a service relies on another service?
+- whether due to ms code or gateway/client must assemble pieces
+- *cascading failure*: takes one ms going down to potentially ruin a bunch more in the dependency chain
+Solution: design system to work with partial ("degraded") response
+
+Handling cascading failures
+- retry some num. of times
+	- avoid fixed retry intervals
+		- note: seriousness of failure is proportional to time of recovery
+			- if server is loaded, we should avoid adding more load to the server
+		- solution: exponential back-off
+			- ie. retry after 1, 2, 4, 8, 16...seconds (likely smaller increases)
+			- don't make time too long
 # Project 1 notes
 We must use the `sqlite3` module (Exception e), which works synchronously.
 - we are NOT ALLOWED to use any other module for database operations (ie. which allow asynchronous operations)
