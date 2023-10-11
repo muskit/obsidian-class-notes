@@ -86,6 +86,9 @@ Most queries can be implemented efficiently with a combination of `MATCH`, `JOIN
 De-normalization may be required if **performance** becomes an issue (rare occurrence)
 
 **Non-relational**
-- will always de-normalize; not all queries can be implemented efficiently
+Depending on the NoSQL type...
+- data is stored de-normalized
+	- not all queries can be implemented efficiently
 	- design around access patterns
-- no joins; must try to retrieve all relevant information in a single query
+- no joins
+	- must try to retrieve all relevant information in a single query
