@@ -83,7 +83,7 @@ Implementations
 - normalize into separate tables
 - JOIN back together as needed
 Most queries can be implemented efficiently with a combination of `MATCH`, `JOIN`, `SELECT`
-De-normalization may be required if **performance** becomes an issue (rare occurrance)
+De-normalization may be required if **performance** becomes an issue (rare occurrence)
 
 **Non-relational**
 - will always de-normalize; not all queries can be implemented efficiently
