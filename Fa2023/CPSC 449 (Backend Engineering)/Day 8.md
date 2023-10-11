@@ -92,3 +92,7 @@ Depending on the NoSQL type...
 	- design around access patterns
 - no joins
 	- must try to retrieve all relevant information in a single query
+
+**General tips -- web applications**
+- web apps will mostly read data
+- data may not need updating
