@@ -23,11 +23,20 @@ To calculate, we simply multiply the **prior probabilities** given other feature
 Though we know which one is bigger, they're not actually probability values yet (needs to sum to 1).
 
 We need to *normalize* the values to make them probability values (sum to 1)
-- do this by dividing each number ($P(yes)$ & $P(no)$) by the sum of its values
+- do this by dividing each value ($P(yes)$ & $P(no)$) by the sum of those values
 - ie. normalized $P(yes) = \frac{P(yes)}{P(yes) + P(no)}$
 
-## E-mail Spam-filtering Example
+### E-mail Spam-filtering Example
 features of each email:
 - sender's domain
 - sender's username contains numbers
 - subject contains exclamation points ("`!`")
+
+### Pros/Cons of Naive Bayes
+In the context of spam email-filtering...
+- Pro: Independence allows parms to be estimated on various data sets
+	- Allows for...
+	- estimate content features when header's omitted
+	- estimate header features when content omitted
+- Con: Solutions devised to defeat filters
+	- each e-mail is altered to avoid values potentially part of dataset (ie. misspells)
