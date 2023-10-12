@@ -1,4 +1,5 @@
 # Exam Notes
+Exam covers weeks 1-7 (last thing is "Ethics")
 **2 pages of double-sided notes allowed**
 - typed/handwritten allowed
 
