@@ -2,14 +2,14 @@
 (person)は(part)が(adj)です。
 
 # ている as result of change
-With certain verbs ("change class"), ている is used to describe the **result** of a change, **NOT that the change is ongoing**.
-Use regular form to indicate ongoing action
+With verbs describing change of state ("change class"), ている is used to describe the **result** of a change, **NOT that the change is ongoing**.
+
+Use regular form to indicate ongoing change action
 "I'm on my way"
 - 行きます, NOT 行っています
-
 ## Wearing Verbs
 These are "change class" verbs
-- かぶる(u-verb) - hat
+- かぶる - hat
 - かける - glasses
 - きる - clothes above waist
 - はく - clothes below waist
