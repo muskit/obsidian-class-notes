@@ -12,3 +12,6 @@ Connected elements must all be consistently either positive or negative in a sen
 To connect positive & negative, use が (however) phrase connection
 むずかしいです**が**、おもしろいです。
 - It's difficult, but it's interesting
+
+# Kanji
+![[Pasted image 20231017130719.jpg]]
