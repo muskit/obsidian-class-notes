@@ -2,12 +2,11 @@
 uninformed search
 - exploring the problem space without any knowledge about the goal (getting closer? what area to search?)
 - effective with smaller, simpler problem spaces
-- ex: depth-first tree search
+
+Depth-first tree search
 	a. root node A is first in the frontier stack
 	b. push A's children B & C into the frontier stack
 	c. pop C, explore its children
-
-## Example problem
 ![[Pasted image 20230831145752.png]]![[Pasted image 20230831145923.png]]
 
 <u>Depth-first search</u>
@@ -17,7 +16,7 @@ uninformed search
 	- only space we use is for the frontier stack
 	- **advantage**: uses less space compared to other methods
 - Complete? **No**
-	- can end up in **infinite loops** before exploring all pathsp
+	- can end up in **infinite loops** before exploring all paths
 - Optimal? **No**
 	- may explore a single path too far, skipping a more shallow path
 
@@ -35,7 +34,7 @@ Time complexity = $O(b^m)$
 
 <u>DF-Graph Search</u>
 Keep track of **visited** nodes (as a **set**), in addition to our path
-- add node to frontier ony if
+- add node to frontier only if
 	- it's not in the frontier, AND
 	- it's not in the explored set
 

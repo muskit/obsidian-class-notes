@@ -22,7 +22,7 @@ Everything above is described in plain language using logic. But how about logic
 ## Propositional logic
 Think back to 270A.
 
-$\sim Q$ - "not Q"
+$\neg Q$ - "not Q"
 $P \implies Q$ : "P implies Q"
 $(P \land Q) \implies R$ : P and Q implies R
 $(P \lor Q) \implies R$ : P or Q implies R
