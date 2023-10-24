@@ -1,5 +1,5 @@
 # Propositional Logic (cont.)
-### Back to [[Day 9#Example Wumpus world|Wumpus' World]]
+### Back to [[Fa2023/CPSC 481 (Artificial Intelligence)/Day 9#Example Wumpus world|Wumpus' World]]
 We can use propositional logic to represent the world's state
 The issue: we have to show the state for **every single tile**
 - will get lengthy if we have to show multiple states

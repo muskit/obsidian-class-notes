@@ -9,6 +9,9 @@ uses て-form **of the adjective**
 
 Connected elements must all be consistently either positive or negative in a sentence.
 
+りんごは大きくて、おいしいです。
+- The apple is big and delicious.
+
 To connect positive & negative, use が (however) phrase connection
 むずかしいです**が**、おもしろいです。
 - It's difficult, but it's interesting

@@ -22,7 +22,7 @@ Everything above is described in plain language using logic. But how about logic
 ## Propositional logic
 Think back to 270A.
 
-$\sim Q$ - "not Q"
+$\neg Q$ - "not Q"
 $P \implies Q$ : "P implies Q"
 $(P \land Q) \implies R$ : P and Q implies R
 $(P \lor Q) \implies R$ : P or Q implies R
@@ -34,7 +34,7 @@ Knowledgebase (KB; premises)
 **Entailment**
 "A entails B": if A is true, then B must be true for every value of A.
 Given that A is true, then B should also be true.
-- of all possible states, ONLY consider states where given is true
+- of all possible states, ONLY consider states where given (A) is true
 - don't consider states where A is not true
 
 Example:
