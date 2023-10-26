@@ -18,3 +18,4 @@ To connect positive & negative, use が (however) phrase connection
 
 # Kanji
 ![[Pasted image 20231017130719.jpg]]
+![[Pasted image 20231024114121.png]]
