@@ -10,7 +10,7 @@ $P(A,B)$
 $P(A,B')$
 - probability that $A$ occurs given that $B$ DOESN'T occur
 $P(A',B)$
-- probability that $A$ doesn't occur, yet $B$ occurs
+- probability that $A$ doesn't occur when $B$ occurs
 - false positive (medical example): probability that a patient doesn't have a disease given that a medical test turns positive
 
 **Definition of a conditional probability**
@@ -26,6 +26,7 @@ Given defined probabilities distributions $P(A)$ and $P(B)$ where their sum is $
 $P(a|b) = \frac{P(b|a)P(a)}{P(b)}$
 - let's us find a value by using the inverse relationship
 - useful if what we're trying to calculate is too complex
+- used to find **posterior conditional probabilities**
 
 ## Example
 1/1000 people have **cancer**
@@ -44,3 +45,5 @@ $P(A') = .999$
 $P(B) = .99$
 $P(B|A') = .2$
 ![[Pasted image 20231010153614.png]]
+$P(B)=P(A, B) + P(A',B)$
+- Probability of a positive test is the sum of \[positive test AND has disease] and \[positive test AND DOESN'T have disease]

@@ -5,12 +5,12 @@
 
 # Going to location with a purpose
 **To specify the reason you've gone somewhere.**
-- place に verb-stem に motion verb
+- place に reason verb stem に motion verb
 
 NOTE: verb stem = verb long form, but remove ます
 - ie. 飲む $\rightarrow$ 飲み**ます** $\rightarrow$ 飲み
 
-うち**に**やすみ**に**かえります。
+うち**に**やすみ**に**かえりました。
 - I returned home to **sleep**.
 
 **To ask for the reason someone is going somewhere...**
