@@ -20,6 +20,8 @@ To calculate, we simply multiply the **prior probabilities** given other feature
 *What are the chances that we play tennis, given...*
 ![[Pasted image 20231012144711.png]]
 
+Note: "joint probability" (ie. $P(PlayTennis=yes, rain, mild, high, strong)$) is asking for $\frac{rows\ with\ these\ values}{total\ \#\ of\ rows}$
+
 **Normalizing**
 Though we know which one is bigger, they're not actually probability values yet (needs to sum to 1).
 
