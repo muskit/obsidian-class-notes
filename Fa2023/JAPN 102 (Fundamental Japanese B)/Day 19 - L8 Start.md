@@ -14,7 +14,7 @@ Short form: important to learn as it's used in various grammar structures
 Irregulars
 - する $\Rightarrow$ しない
 - ある $\Rightarrow$ ない
-- くる $\Rightarrow$ こわない
+- くる $\Rightarrow$ こない
 
 ### Adjectives
 い-adjectives (substitute い)

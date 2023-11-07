@@ -14,6 +14,8 @@
 	- Visualization of similar things
 - Dimensionality Reduction
 	- simplify data w/o losing too much info (ie. merging several correlated features)
+- Association Rule Learning
+	- discover relations in large data between attributes
 
 # Semi-supervised Learning
 Training with a combination of both labeled and unlabeled data.

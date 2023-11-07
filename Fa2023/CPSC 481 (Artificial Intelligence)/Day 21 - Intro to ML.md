@@ -12,7 +12,7 @@ ML is best used in...
 
 ML challenges
 - training data sets:
-	- acquisition: legal issues
+	- sufficient acquisition: legal issues
 	- quality of data
 - selecting the best ML algorithm for a task
 - proper fitting (don't over/under fit)
