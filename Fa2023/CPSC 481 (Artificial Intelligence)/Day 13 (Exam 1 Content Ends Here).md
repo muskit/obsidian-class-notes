@@ -22,6 +22,7 @@ Solution to the partial-reconnection problem: *k-anonymity*
 4. Suppression: don't release detail at all
 	- ie. don't release location of subject at all
 
+# `-- END OF EXAM 1 CONTENT --`
 # Reasoning with Uncertainty
 Uncertain contexts
 - **medical diagnosis**: same symptoms can have many different causes

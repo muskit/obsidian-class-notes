@@ -26,3 +26,6 @@ Irregulars
 天気は？
 - do NOT answer generally (ie. it is cold/hot)
 - answer more specifically (rainy, sunny, etc)
+
+# Kanji
+**L8 kanjis are going to be more difficult.**
