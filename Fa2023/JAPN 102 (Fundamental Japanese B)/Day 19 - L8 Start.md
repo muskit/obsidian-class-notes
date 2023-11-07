@@ -16,12 +16,15 @@ Irregulars
 - ある $\Rightarrow$ ない
 - くる $\Rightarrow$ こない
 
-### Adjectives
+### Negating adjectives
 い-adjectives (substitute い)
 - はやい $\Rightarrow$ はや**くない**
 
 な-adjectives (substitute な)
 - きれい**だ** $\Rightarrow$ きれい**じゃない**
+
+いい $\Rightarrow$ よくない
+
 
 天気は？
 - do NOT answer generally (ie. it is cold/hot)
