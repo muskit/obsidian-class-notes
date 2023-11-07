@@ -1,17 +1,19 @@
 # Stating something *is* casually
 ### noun/な-adjective
 きれい**だよ**。  
+きれい**じゃない**。  
 ノートだよ。  
-- do NOT use だ
+- do NOT use just だ
 ### い-adjective
-いそがしい。
+いそがしい。  
+いそがし**くない**。
 - do NOT use だ or だよ
 # Stating an opinion
 。。。と　おもいます。
 - I think that...
 
 (short-form statement)とおもいます。
-### noun/な-adjective example
+### noun/な-adjective example 
 日本人**だ**とおもいます。
 - I think that is a Japanese person.
 
