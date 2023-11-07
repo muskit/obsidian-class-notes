@@ -11,6 +11,7 @@
 # Stating an opinion
 。。。と　おもいます。
 - I think that...
+- uses おもう - to think
 
 (short-form statement)とおもいます。
 ### noun/な-adjective example 
