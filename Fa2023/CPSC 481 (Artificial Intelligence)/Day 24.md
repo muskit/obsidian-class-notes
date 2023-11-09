@@ -50,3 +50,11 @@ Attribute type
 Splitting
 - 2-way split: binary tree
 - multi-way split: n-ary tree
+
+## Node Impurity
+**Determining the impurity of the dataset**
+
+Gini impurity: probability of mis-classifying a randomly chosen element
+- higher if dataset is more diverse
+
+Entropy: measure of uncertainty/randomness
