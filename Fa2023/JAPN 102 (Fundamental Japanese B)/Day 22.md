@@ -62,3 +62,6 @@ Aは何(なん)と言っていました。
 
 しゃしんをとらないでください。
 - Please do not take pictures.
+
+# Kanji
+![[Pasted image 20231109145412.png]]
