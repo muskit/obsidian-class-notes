@@ -42,16 +42,20 @@
 
 # Referring to another's utterance
 *〜といっていました*
+- uses *いう: to say*
 
 Aは\<statement>といっていました。
 - "A was saying \<statement>."
 - \<statement> should be in **short form**
 
-Aは何(なん)と言っていました。
+Aは何(なん)と言っていましたか。
 - "What was A saying?"
 
 天気よほうは何といっていましたか。
 - "What was the weather report saying?"
+
+天気よほうはあしたはあめがふるといっていました。
+- The forecast was saying that tomorrow it will rain.
 
 1. アルバイトに行きます
 2. このまちはにぎやきです
