@@ -32,3 +32,6 @@
 ???: use for talking about **self's** skill
 
 について: about, concerning, in regards to
+
+# Kanji
+![[Pasted image 20231109145507.png]]
