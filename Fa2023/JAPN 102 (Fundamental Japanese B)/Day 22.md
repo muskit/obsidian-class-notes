@@ -52,7 +52,7 @@ Aは何(なん)と言っていましたか。
 - "What was A saying?"
 
 天気よほうは何といっていましたか。
-- "What was the weather report saying?"
+- "What was the weather forecast saying?"
 
 天気よほうはあしたはあめがふるといっていました。
 - The forecast was saying that tomorrow it will rain.
