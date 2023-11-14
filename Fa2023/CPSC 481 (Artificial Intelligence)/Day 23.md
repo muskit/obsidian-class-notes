@@ -49,8 +49,8 @@ a **bottom-up** approach for nested clustering
 - ie. animal/plant classification
 
 ### K-means clustering
-1. Randomly assign centroid pointsDetermine $k$ (number of clusters)
-2. Initialize centroid points **randomly**
+1. Determine $k$ (number of clusters)
+2. Initialize centroid points (likely randomly)
 3. Calculate distances btwn points and centroids, adjust centroid points as needed
 4. Adjust centroids to be the **center** of given clusters by re-partitioning data points
 5. Repeat 2-4 until **convergence** is achieved, where
