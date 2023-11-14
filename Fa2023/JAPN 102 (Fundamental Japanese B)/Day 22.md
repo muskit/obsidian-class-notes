@@ -71,5 +71,7 @@ Not covered in class: this uses the **negative te-form**.
 - very simple rule: 〜ない**で**
 - short-form negative + で
 
+# A note on くない
+When negating an い-adjective with くない, it is treated
 # Kanji
 ![[Pasted image 20231109145412.png]]
