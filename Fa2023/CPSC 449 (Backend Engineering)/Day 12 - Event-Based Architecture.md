@@ -26,3 +26,6 @@ An event, however, is an **action that has occurred.**
 ## In an event system...
 - Producers (clients) are event **publishers**
 - Consumers are **subscribers** to events
+- The message queue holds a record of the events as **actions**
+
+# CONTINUE @ NOV. 14 1:30:00
