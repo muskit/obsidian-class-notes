@@ -12,11 +12,17 @@ Events are at the **highest** level of abstraction in data exchange:
 3. **Events**
 
 ## Think of events initially as a *shift in perspective*
-Suppose an application sends a request resulting in a creation of a **job**...
-- job is submitted to queue
-- consumer takes job and processes it
+**Example: password reset**
 
-The job is a task for the server to run.
+Job (RPC): `reset_password('muskit');`  
+Message (REST): `GET /auth/reset_password?user=muskit`  
+Event (action): `User "muskit" has requested to change their password.`  
+
+A job is a task for the server to run.
 
 An event, however, is an **action that has occurred.**
-- 
+- may kick off **multiple** tasks
+
+## In an event system...
+- Producers (clients) are event **publishers**
+- Consumers are **subscribers** to events
