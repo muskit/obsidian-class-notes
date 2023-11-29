@@ -28,3 +28,21 @@ a **mathematical function** acting like a biological neuron
 - output
 
 ***Deep Neural Network (DNN)***- an ANN with **2+ hidden layers**
+- 1 hidden layer is considered a *shallow neural network*
+
+Typically used on supervised learning, but has been moving towards un- and semi-supervised recently.
+
+## Convolutional Neural Network (CNN)
+make predictions on *spatial* info
+- topological, geometric, geographic
+
+allows for focusing on smaller parts of data to make more accurate predictions
+- remove meaningless data
+- ex: when identifying a bird, we can ignore the background, the object it's standing on, other environment objects, etc
+
+Layers
+- Convolutional- filters to highlight important features (creates "feature maps")
+	- 
+- Pooling- reduce spatial dimensions of feature map
+- Flattening- reduce dimensionality (ie. 2D to 1D)
+- Fully Connected- classify this flattened vector
